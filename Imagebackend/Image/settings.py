@@ -25,9 +25,8 @@ SECRET_KEY = '^57cw%$g4mq0v(uye%%rre%7n$)5rf9tjkscz#*_ffzp-fclbl'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
-
+ALLOWED_HOSTS = ['192.168.0.17','127.0.0.1']
+#23910780
 # Application definition
 
 INSTALLED_APPS = [
@@ -70,7 +69,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'Image.wsgi.application'
-
+MAX_UPLOAD_SIZE = "5242880000"
+DATA_UPLOAD_MAX_MEMORY_SIZE = 524288000
 
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases

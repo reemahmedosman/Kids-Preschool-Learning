@@ -1,0 +1,6 @@
+[submodule "ImageBackEnd"]
+	path = ImageBackEnd
+	url = https://github.com/reemahmedosman/ImageBackEnd.git
+[submodule "ImageFrontEnd"]
+	path = ImageFrontEnd
+	url = https://github.com/reemahmedosman/ImageFrontEnd.git
